@@ -1,0 +1,8 @@
+@import "_variables.scss";
+@import "_buttons.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

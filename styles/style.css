@@ -1,0 +1,38 @@
+.button1 {
+  background-color: coral;
+  text-decoration: none;
+  color: #333;
+  padding: 2vh;
+  margin: 7vh;
+  border-radius: 1vh;
+  border: solid teal 0.5vh;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  position: absolute;
+}
+
+.button1:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.button1::after {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
