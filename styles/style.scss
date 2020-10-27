@@ -1,5 +1,17 @@
 @import "_variables.scss";
-@import "_buttons.scss";
+@import "_clickhere.scss";
+@import "_oldspice.scss";
+@import "_text-effect.scss";
+@import "_team7.scss";
+@import "_icebear.scss";
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 .container {
   display: flex;

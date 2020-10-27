@@ -1,0 +1,10 @@
+@import "_variables.scss";
+
+.text-effect {
+  background-image: url("photos/ocean.jpg");
+  background-position: center;
+  font-size: 6rem;
+  color: transparent;
+  -webkit-background-clip: text;
+  transition: none;
+}

@@ -1,24 +1,24 @@
 @import "_variables.scss";
 
 .button1 {
-  background-color: $primary;
   text-decoration: none;
   color: #333;
   padding: 2vh;
   margin: 7vh;
+  font-size: 2rem;
   border-radius: 1vh;
   border: solid $secondary 0.5vh;
   transition: all 0.2s;
-  position: absolute;
 }
 
 .button1:hover {
-  transform: scale(1.5);
+  transform: scale(0.75);
+  cursor: grab;
+  background-color: $primary;
 }
 
-.button1::after {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  display: inline-block;
+.button1:active {
+  opacity: 0.3;
+  transition: 0.1s;
+  cursor: grabbing;
 }

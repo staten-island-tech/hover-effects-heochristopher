@@ -1,0 +1,16 @@
+@import "_variables.scss";
+
+.team7-parent {
+}
+
+.team7-gallery {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+
+.team7 {
+  width: 60%;
+  box-shadow: 0 2vh 2vh rgb(116, 115, 115);
+  margin: 3vh;
+}

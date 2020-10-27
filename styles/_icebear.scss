@@ -1,0 +1,13 @@
+@import "_variables.scss";
+
+.icebear-photo {
+  width: 50%;
+  clip-path: circle();
+  margin: 0 auto;
+}
+
+.icebear {
+  margin: 4vh;
+  display: flex;
+  align-items: center;
+}

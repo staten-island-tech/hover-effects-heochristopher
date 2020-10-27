@@ -1,26 +1,100 @@
 .button1 {
-  background-color: coral;
   text-decoration: none;
   color: #333;
   padding: 2vh;
   margin: 7vh;
+  font-size: 2rem;
   border-radius: 1vh;
   border: solid teal 0.5vh;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  position: absolute;
 }
 
 .button1:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+  cursor: -webkit-grab;
+  cursor: grab;
+  background-color: coral;
 }
 
-.button1::after {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  display: inline-block;
+.button1:active {
+  opacity: 0.3;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.oldspice {
+  width: 30%;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.oldspice:hover {
+  -webkit-filter: saturate(20%);
+          filter: saturate(20%);
+  border-radius: 4rem;
+}
+
+.oldspice:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.text-effect {
+  background-image: url("photos/ocean.jpg");
+  background-position: center;
+  font-size: 6rem;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.team7-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 30%;
+}
+
+.team7 {
+  width: 60%;
+  -webkit-box-shadow: 0 2vh 2vh #747373;
+          box-shadow: 0 2vh 2vh #747373;
+  margin: 3vh;
+}
+
+.icebear-photo {
+  width: 50%;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  margin: 0 auto;
+}
+
+.icebear {
+  margin: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .container {

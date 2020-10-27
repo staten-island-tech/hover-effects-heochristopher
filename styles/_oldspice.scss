@@ -1,0 +1,15 @@
+@import "_variables.scss";
+
+.oldspice {
+  width: 30%;
+  transition: all 0.1s;
+}
+
+.oldspice:hover {
+  filter: saturate(20%);
+  border-radius: 4rem;
+}
+
+.oldspice:active {
+  transform: scale(1.1);
+}
