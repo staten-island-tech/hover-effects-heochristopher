@@ -1,16 +1,19 @@
 @import "_variables.scss";
 
 .team7-parent {
+  flex-direction: column;
+  align-items: center;
 }
 
 .team7-gallery {
   display: flex;
   flex-direction: row;
-  width: 30%;
+  position: relative;
+  margin: 3rem;
 }
 
 .team7 {
-  width: 60%;
   box-shadow: 0 2vh 2vh rgb(116, 115, 115);
   margin: 3vh;
+  position: absolute;
 }

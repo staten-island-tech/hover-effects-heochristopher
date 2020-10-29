@@ -1,0 +1,29 @@
+@import "_variables.scss";
+
+.share {
+  background-color: $primary2;
+  padding: 3vh;
+  border-radius: 3vh;
+  transition: all 0.3s;
+}
+
+.share-text {
+  font-size: 4rem;
+  font-family: $font2;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.share:hover {
+  background-color: $secondary2;
+}
+
+.share:active {
+  border-radius: 4vh 9vh;
+}
+
+.share:active {
+  background-color: darkblue;
+  transition: 0.25s;
+}

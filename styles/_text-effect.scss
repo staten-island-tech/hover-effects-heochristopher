@@ -1,10 +1,14 @@
 @import "_variables.scss";
 
 .text-effect {
-  background-image: url("photos/ocean.jpg");
-  background-position: center;
-  font-size: 6rem;
+  background-image: url("../photos/ocean.jpg");
+  font-size: 8rem;
   color: transparent;
   -webkit-background-clip: text;
-  transition: none;
+  transition: all 0.3s;
+  font-family: $font1;
+}
+
+.text-effect:hover {
+  transform: skew(7deg, 7deg) scale(1.3);
 }
